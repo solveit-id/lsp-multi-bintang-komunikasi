@@ -40,8 +40,8 @@ lsp-multi-bintang-komunikasi
 
 ## Backend
 
-- Laravel 12
-- PHP 8.x
+- Laravel 13.18
+- PHP 8.5
 - MySQL
 - REST API
 
