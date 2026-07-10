@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../../assets/logo.png";
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
@@ -150,11 +150,15 @@ export default function Navbar() {
 
                 {/* BUTTON KANAN */}
                 <div className="hidden md:flex items-center gap-4">
-                    <button className="bg-yellow-400 px-5 py-2 rounded-lg font-medium hover:bg-yellow-500 transition cursor-pointer">
+                    <button 
+                    onClick={()=> navigate("/login")}
+                    className="bg-yellow-400 px-5 py-2 rounded-lg font-medium hover:bg-yellow-500 transition cursor-pointer">
                         Masuk
                     </button>
 
-                    <button className="border px-5 py-2 rounded-lg hover:bg-gray-200 transition cursor-pointer">
+                    <button 
+                    onClick={()=> navigate("/register")}
+                    className="border px-5 py-2 rounded-lg hover:bg-gray-200 transition cursor-pointer">
                         Daftar
                     </button>
                 </div>

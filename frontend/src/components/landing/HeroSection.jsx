@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import heroImg from "../assets/hero.png";
-import hero2 from "../assets/hero.png";
-import hero3 from "../assets/hero.png";
+import heroImg from "../../assets/hero.png";
+import hero2 from "../../assets/hero.png";
+import hero3 from "../../assets/hero.png";
 
 import { Check, ChevronLeft, ChevronRight } from "lucide-react";
-import Dropdown from "../components/DropdownMenu.jsx";
+import Dropdown from "../../components/landing/DropdownMenu.jsx";
 
 export default function Hero() {
     const images = [heroImg, hero2, hero3];
