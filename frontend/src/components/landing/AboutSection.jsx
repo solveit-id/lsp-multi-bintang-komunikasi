@@ -7,9 +7,9 @@ import {
   Target,
   X
 } from "lucide-react";
-import img1 from "../assets/about1.png";
-import img2 from "../assets/about2.png";
-import img3 from "../assets/about3.png";
+import img1 from "../../assets/about1.png";
+import img2 from "../../assets/about2.png";
+import img3 from "../../assets/about3.png";
 
 export default function AboutSection() {
   const [isOpen, setIsOpen] = useState(false);

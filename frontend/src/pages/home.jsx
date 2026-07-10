@@ -1,11 +1,11 @@
-import Navbar from "../components/Navbar";
-import Hero from "../components/HeroSection";
-import About from "../components/AboutSection";
-import VisionMission from "../components/VisionMission";
-import CertificationProcess from "../components/CertificationProcess";
-import CertificationScheme from "../components/CertificationScheme";
-import Testimonials from "../components/Testimonials";
-import Footer from "../components/Footer";
+import Navbar from "../components/landing/Navbar";
+import Hero from "../components/landing/HeroSection";
+import About from "../components/landing/AboutSection";
+import VisionMission from "../components/landing/VisionMission";
+import CertificationProcess from "../components/landing/CertificationProcess";
+import CertificationScheme from "../components/landing/CertificationScheme";
+import Testimonials from "../components/landing/Testimonials";
+import Footer from "../components/landing/Footer";
 import { useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
